@@ -1,6 +1,7 @@
-def is_prime_number(x):
-    for num in range(2, x):
-        if x % num == 0:
-            print("The number {num1} is not a prime number.".format(num1=x))
-            return
-    print("The number {num1} is a prime number.".format(num1=x))
+import max_profit as mp
+import prime_number as pn
+if __name__ == '__main__':
+pn.is_prime_number(1)
+pn.is_prime_number(13)
+pn.is_prime_number(24)
+pn.is_prime_number(31)
