@@ -8,3 +8,4 @@ def print_hello():
         if __name == '_main_':
             print_kit()
             print_hello()
+            print
